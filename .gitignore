@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Models
+*.pt
+*.pth
+*.onnx
+*.weights
+data/models/*.pt
+
+# Data
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+data/raw/*
+data/processed/*
+
+# Logs
+*.log
+logs/*.log
+
+# Environment
+.env
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Training
+runs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+.DS_Store
