@@ -13,10 +13,7 @@ build/
 
 # Models
 *.pt
-*.pth
-*.onnx
 *.weights
-data/models/*.pt
 
 # Data
 *.jpg
