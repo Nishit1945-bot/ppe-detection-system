@@ -24,5 +24,4 @@ flake8>=6.1.0
 isort>=5.12.0
 
 # Production server
-gunicorn==21.2.0
-EO
+gunicorn>=21.2.0
